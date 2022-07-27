@@ -1,0 +1,36 @@
+/* 게시글 목록 */
+.board-list {
+    margin-bottom: 30px;
+}
+
+.post-link {
+    text-decoration: none;
+}
+
+.post-card {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    list-style: none;
+    border: 1px solid darkgray;
+}
+
+.card-title {
+    text-align: start;
+    font-weight: bold;
+    font-size: larger;
+    color: black;
+}
+
+.card-content {
+    text-align: start;
+    color: gray
+}
+
+.card-info {
+    text-align: end;
+    color: black;
+}
+.card-info > a {
+    padding: 5px;
+}
